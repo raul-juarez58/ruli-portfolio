@@ -14,6 +14,7 @@ function App() {
       <Habilidades />
       <Contacto />
     </>
+    {/*deploy*/}
   );
 }
 
