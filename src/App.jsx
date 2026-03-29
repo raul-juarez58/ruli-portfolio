@@ -13,8 +13,9 @@ function App() {
       <Experiencia />
       <Habilidades />
       <Contacto />
-    </>
       {/* deploy */}
+    </>
+      
   );
 }
 
