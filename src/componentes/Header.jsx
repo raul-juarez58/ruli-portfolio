@@ -1,7 +1,7 @@
 function Header() {
   return (
     <header className="header">
-        <img src="/perfil.jpg" alt="foto perfil" className="foto" />
+        <img src="/fotoPerfil.jpg" alt="Foto perfil" className="foto" />
 
       <h1>Nombre Apellido: RULY++</h1>
       <h2>Desarrollador Fronted</h2>
