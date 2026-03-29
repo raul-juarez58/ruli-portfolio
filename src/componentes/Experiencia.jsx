@@ -5,11 +5,12 @@ function Experiencia() {
 
       <div className="card">
         <h4>Desarrollador Frontend</h4>
-        <span className="fecha">Proyecto personal - 2026</span>
-        <p>
-          Desarrollo de aplicación TODO App utilizando React, con funcionalidades
-          de creación, edición y filtrado de tareas.
-        </p>
+        <p>Proyecto personal - 2026</p>
+        <ul>
+          <li>App TODO con React</li>
+          <li>CRUD de tareas</li>
+          <li>Uso de useState</li>
+        </ul>
       </div>
 
     </section>
