@@ -3,6 +3,7 @@ import SobreMi from "./componentes/SobreMi";
 import Experiencia from "./componentes/Experiencia";
 import Habilidades from "./componentes/Habilidades";
 import Contacto from "./componentes/Contactos";
+import "./App.css";
 function App() {
   return (
     <>
