@@ -4,6 +4,7 @@ import Experiencia from "./componentes/Experiencia";
 import Habilidades from "./componentes/Habilidades";
 import Contacto from "./componentes/Contactos";
 import "./App.css";
+import Proyectos from "./componentes/Proyectos"
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Experiencia />
       <Habilidades />
       <Contacto />
+      <Proyectos />
       {/* deploy */}
     </>
       
