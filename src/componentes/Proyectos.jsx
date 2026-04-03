@@ -1,20 +1,37 @@
 import "./Proyectos.css";
 
 function Proyectos() {
+
+    const proyectos = [
+        {
+            nombre: "TODO App",
+            descripcion: "Aplicacion de tareas con React (CRUD).",
+            demo: "#",
+            codigo: "#"
+        },
+        {
+            nombre: "Portfolio CV",
+            descripcion: "Sitio personal desarrollado con React y Vite.",
+            demo: "#",
+            codigo: "#"
+        }
+    ];
+
   return (
     <section className="proyectos">
       <h3>Proyectos</h3>
 
-      <div className="card">
-        <h4>TODO App</h4>
-        <p>Aplicación de gestión de tareas con React.</p>
+       {proyectos.map((proyecto, index) => (
+      <div className="card" key={index}>
+        <h4>{proyecto.nombre}</h4>
+        <p>{proyecto.descripcion}</p>
 
         <div className="links">
-          <a href="#">Ver proyecto</a>
-          <a href="#">Código</a>
+          <a href={proyecto.demo} target="_blank">Ver proyecto</a>
+          <a href={proyecto.codigo} target="_blank">Código</a>
         </div>
       </div>
-
+    ))}
     </section>
   );
 }
