@@ -1,4 +1,6 @@
-const habilidades = [
+  import "./Habilidades.css";
+
+    const habilidades = [
     { nombre: "HTML", nivel:90 },
     { nombre: "CSS", nivel:85 },
     { nombre: "JavaScript", nivel:80 },
@@ -7,23 +9,17 @@ const habilidades = [
 ]
 
 function Habilidades() {
+  const skills = ["HTML","CSS","JavaScript","React","Git"];
+
   return (
     <section className="habilidades">
       <h3>Habilidades</h3>
 
       <div className="skills-container">
-       {habilidades.map((hab, index) => (
-    <div key={index} className="skill-card">
-        <span>{hab.nombre}</span>
-        
-        <div className="barra">
-            <div
-                className="progreso"
-                style={{ width: `${hab.nivel}%` }}
-               ></div>     
-        </div>
-
-      </div>
+       {skills.map((skill, index) => (
+        <span key={index} className="skill">
+          {skill}
+        </span>     
 
        ))}
        </div>  

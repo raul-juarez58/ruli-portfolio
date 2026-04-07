@@ -1,0 +1,21 @@
+
+.habilidades {
+    margin-top: 40px;
+}
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.skill {
+    background: #2563eb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+.skill:hover {
+    background: #1d4ed8;
+    transform: scale(1.05);
+}
