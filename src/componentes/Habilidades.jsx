@@ -1,12 +1,12 @@
   import "./Habilidades.css";
 
-    const habilidades = [
+   /*const habilidades = [
     { nombre: "HTML", nivel:90 },
     { nombre: "CSS", nivel:85 },
     { nombre: "JavaScript", nivel:80 },
     { nombre: "React", nivel:75 },
     { nombre: "Git", nivel:70 },
-]
+]*/
 
 function Habilidades() {
   const skills = ["HTML","CSS","JavaScript","React","Git"];
